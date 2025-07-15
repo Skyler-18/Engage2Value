@@ -19,7 +19,7 @@ build/
 .log 
 
 # DVC Cache
-.dvc/
+# .dvc/
 
 # MLflow
 mlruns/
