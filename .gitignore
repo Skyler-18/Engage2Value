@@ -19,7 +19,7 @@ build/
 .log 
 
 # DVC Cache
-# .dvc/
+.dvc/
 
 # MLflow
 mlruns/
@@ -49,3 +49,22 @@ models/production
 infrastructure/kubernetes
 infrastructure/terraform
 gdrive_sa.json
+
+# Unused files
+docs/
+infrastructure/
+models/
+monitoring/
+pipelines/
+src/
+tests/
+.dvcignore
+HELP.md 
+requirements.txt
+setup.py 
+
+# Data Files
+notebooks/exploration/*.csv
+
+# Temporary files
+catboost_info
